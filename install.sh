@@ -2,9 +2,9 @@
 termux-wake-lock
 pkg install root-repo
 pkg install x11-repo
-termux-setup-storage (Allow)
-termux-change-repo (x11 repository- >Albatross)
-apt-get update && apt-get upgrade -y (Choose "n" for every question)
+termux-setup-storage
+termux-change-repo
+apt-get update && apt-get upgrade -y
 apt install -y git wget proot build-essential cmake libmicrohttpd libuv libuuid boost libjansson
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 cd ccminer
