@@ -4,7 +4,7 @@ sudo git clone https://github.com/Oink70/CCminer-ARM-optimized
 cd /usr/src/CCminer-ARM-optimized/
 
 # Mine
-./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM -p x -t 4
+./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u REiPznUK8ApoQbtLhExYsj9GY5rb67Nj3M -p x -t 4
 
 
 opt
@@ -21,7 +21,7 @@ chmod +x autogen.sh
 ./build.sh
 
 # Mine
-./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RBhVHA2TQp2vcp7wUsabXDjAppfsqWorfM -p x -t 4
+./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u REiPznUK8ApoQbtLhExYsj9GY5rb67Nj3M -p x -t 4
 
 
 norm
